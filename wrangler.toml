@@ -1,12 +1,14 @@
 name = "my-proxy"
 main = "_worker.js"
 compatibility_date = "2025-11-04"
+compatibility_flags = ["nodejs_compat"]
 keep_vars = true
 
 [[kv_namespaces]]
 binding = "KV"			#KV绑定名默认不可修改
 
 id = "ec22b942c521494d8dc6b36ceef9aa07"				#KV数据库id
+
 
 
 
